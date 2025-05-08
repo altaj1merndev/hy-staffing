@@ -42,10 +42,10 @@ export default function JobOpportunities() {
             {jobs.map((job, idx) => (
               <div
                 key={idx}
-                className="  border space-y-2 border-[#D1D5FF] rounded-[20px] shadow-sm p-6 flex flex-col items-center justify-between w-44 text-center hover:bg-[#6777FE] bg-[#F8F8FF]"
+                className=" hover:text-white text-gray-800 border space-y-2 border-[#D1D5FF] rounded-[20px] shadow-sm p-6 flex flex-col items-center justify-between w-44 text-center hover:bg-[#6777FE] bg-[#F8F8FF]"
               >
                 <p className="text-4xl text-center  p-3 rounded-full bg-[#ECECFE] hover:bg-white text-blue-500">{job.icone}</p>
-                <h3 className="text-xl font-semibold text-gray-800 ">
+                <h3 className="text-xl font-semibold  ">
                   {job.title}
                 </h3>
                 <button className="mt-auto text-[#5A5C5F] hover:text-[#EBECF0] underline text-sm font-medium">

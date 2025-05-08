@@ -16,7 +16,7 @@ const HeroSection = () => {
           success in the job you love.
         </p>
 
-        <div className="mt-6 flex w-full max-w-md bg-white rounded-full shadow border">
+        <div className="mt-6 flex w-full max-w-md bg-white rounded-full shadow border border-white">
           <div className="flex items-center pl-4 pr-2 text-gray-400">
             <svg
               className="w-5 h-5"
@@ -35,7 +35,7 @@ const HeroSection = () => {
           <input
             type="text"
             placeholder="Search Jobs"
-            className="flex-grow px-2 py-2 rounded-l-full focus:outline-none"
+            className="flex-grow px-2 py-2 rounded-l-full focus:outline-none "
           />
           <button className="bg-gradient-to-r from-blue-500 to-blue-400 text-white px-5 py-2 rounded-full">
             Apply Now
