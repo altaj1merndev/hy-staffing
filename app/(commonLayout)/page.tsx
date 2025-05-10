@@ -12,7 +12,7 @@ import Footer from '../components/commonLayout/home/Footer'
 export default function HomePage() {
   return (
     <div>
-      <NavBar/>
+      {/* <NavBar/> */}
       <HeroSection/>
       <Ratings/>
       <WhoWeAre/>
@@ -20,7 +20,7 @@ export default function HomePage() {
       <HowItWorks/>
       <SuccessStories/>
       <EmployerCTA/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }
