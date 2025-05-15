@@ -11,6 +11,7 @@ import ShowEntries from '@/src/components/shears/Pagination/ShowEntries'
 import TotalEntries from '@/src/components/shears/Pagination/TotalEntries'
 import Pagination from '@/src/components/shears/Pagination/Pagination'
 import TableLoader from '@/src/components/shears/table/TableLoader'
+import TestMessage from './TestMessage'
 
 export default function HowToWorksComponent() {
       const [page, serPage] = React.useState<number>(1);
@@ -65,6 +66,7 @@ export default function HowToWorksComponent() {
         setSorting={setSort}
         refetch={refetch}
       /> */}
+      <TestMessage></TestMessage>
     </section>
     <footer className="w-full p-2  rounded shadow sm:flex justify-between gap-x-4 py-3">
       <ShowEntries limit={limit} onLimitChange={handleLimitChange} />
